@@ -27,17 +27,18 @@
         </div>
         <div class="bill__amount">
           <label for="billAmount" class="label">Bill Amount:</label>
-          <input type="number" />
+          <input id="bill-amount" type="number" />
         </div>
         <div class="cash__given">
           <label for="cashGiven" class="label">Cash Given:</label>
-          <input type="number" />
+          <input id="cash-given" type="number" />
         </div>
-        <button class="btn btn__bg">Calculate</button>
+        <button id="calculate-btn" class="btn btn__bg">Calculate</button>
+        <p id="error-msg"></p>
         <h2 class="return__change">Return Change:</h2>
 
         <table class="borderr table">
-          <tr>
+          <tr class="border">
             <th class="border__head border">No.Of.Notes</th>
             <td class="border"></td>
             <td class="border"></td>
@@ -60,5 +61,7 @@
         </table>
       </div>
     </main>
+
+    <script src="./JS/app.js"></script>
   </body>
 </html>

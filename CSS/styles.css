@@ -16,7 +16,7 @@ body {
 
 .container {
   /* width: auto; */
-  height: 70vh;
+  height: 80vh;
   background-color: #2a9d8f;
   text-align: center;
   border-radius: 5px;
@@ -91,4 +91,7 @@ input {
 .border_last {
   border: 1px solid rgb(0, 0, 0);
   padding: 0 40px 0 0;
+}
+#error-msg {
+  font-size: 1.3rem;
 }
