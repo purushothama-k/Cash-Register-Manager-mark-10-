@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Finlandica', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Finlandica", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-image: linear-gradient(to bottom right, #020024, #790909, #00d4ff);
   height: 100vh;
   margin: auto;
